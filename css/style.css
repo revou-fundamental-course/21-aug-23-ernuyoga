@@ -1,0 +1,250 @@
+/* Add your styles for the banner section here */
+body {
+    margin: 0;
+}
+
+header, nav {
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    background-color: rgba(39,33,33,255);
+    color: white;
+    position: fixed;
+    width: 100%;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 3px solid white;
+}
+
+nav {
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 25px;
+}
+
+nav table {
+    margin: 1rem;
+    border-collapse: separate;
+    border-spacing: 2px;
+    border-radius: 10px;
+    border: 2px solid white;
+    overflow: hidden;
+}
+
+nav td {
+    padding: 10px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+.logo {
+    width: 60px;
+    height: auto;
+    border-radius: 50%;
+    border: 3px solid white;
+    margin-left: 25px;
+}
+
+.banner {
+    padding-top: 50px;
+    background-image: url("./background.jpg");
+    background-size: cover;
+    background-position: center;
+    background-position-x: 25px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    border-bottom: 3px solid white;
+}
+
+.banner h1 {
+    font-size: 2rem;
+    font-weight: bold;
+    color: black;
+}
+
+.banner p {
+    font-size: 1.2rem;
+    color: black;
+    margin: 0;
+}
+
+.profile {
+    background-color: rgba(39, 33, 33, 255);
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    color: white;
+    font-family: "Montserrat", sans-serif;
+    border-bottom: 3px solid white;
+    padding: 0 50px;
+}
+
+.profile-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.profile h1 {
+    font-size: 1.2rem;
+    color: white;
+    margin-top: 25px;
+    margin-bottom: 10px;
+}
+
+.profile p {
+    font-size: 1rem;
+    color: white;
+    margin-bottom: 10px;
+}
+
+.visi-misi {
+    background-color: rgba(252,220,11,255);
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    color: white;
+    font-family: "Montserrat", sans-serif;
+    border-bottom: 3px solid white;
+    padding: 0 50px;
+}
+
+.visi-misi-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.visi-misi h1 {
+    font-size: 1.2rem;
+    color: rgba(39, 33, 33, 255);
+    margin-top: 25px;
+    margin-bottom: 10px;
+}
+
+.visi-misi p {
+    font-size: 1rem;
+    color: rgba(39, 33, 33, 255);
+    margin-bottom: 10px;
+}
+
+.message-us {
+    background-color: rgba(39, 33, 33, 255);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center; /* Vertically center align content */
+    justify-content: center; /* Horizontally center align content */
+    color: white;
+    font-family: "Montserrat", sans-serif;
+    padding: 0 50px;
+    height: 750px; /* Adjust as needed */
+    border-bottom: 3px solid white;
+}
+
+.message-us-content {
+    text-align: center;
+}
+
+.message-us h1 {
+    font-size: 1.2rem;
+    color: white;
+    margin: 10px 0;
+}
+
+.message-us form {
+    display: flex;
+    flex-direction: column;
+}
+
+.message-us form label {
+    font-weight: bold;
+    margin-top: 10px;
+    color: white;
+}
+
+.message-us form select,
+.message-us form input,
+.message-us form textarea {
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+}
+
+.message-us form textarea {
+    resize: vertical;
+}
+
+.message-us form input[type="submit"] {
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.message-us form input[type="submit"]:hover {
+    background-color: #555;
+}
+
+.submission-result {
+    background-color: #f5f5f5;
+    padding: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    max-width: 400px;
+}
+
+.submission-result h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: rgba(39, 33, 33, 255);
+}
+
+.submission-result p {
+    font-size: 14px;
+    margin: 5px 0;
+    color: rgba(39, 33, 33, 255);
+    text-align: left;
+}
+
+.submission-result span {
+    font-weight: bold;
+}
+
+footer {
+    background-color: rgba(252,220,11,255);
+    color: rgba(39, 33, 33, 255);
+    text-align: right;
+    padding: 10px;
+}
+
+footer p {
+    margin: 0;
+}

@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500&display=swap">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>School Profile</title>
+</head>
+
+<body>
+    <header>
+        <img src="https://images.glints.com/unsafe/180x0/glints-dashboard.s3.amazonaws.com/company-logo/a32f81155cd0d4f16d36aef74f7d2644.png"
+            alt="School Logo" class="logo">
+        <nav>
+            <table>
+                <tr>
+                    <td>
+                        <div class="cell-content">
+                            <a href="#home">Home</a>
+                        </div>
+                        <div class="rounded-corner"></div>
+                    </td>
+                    <td>
+                        <div class="cell-content">
+                            <a href="#our-profile">Our Profile</a>
+                        </div>
+                        <div class="rounded-corner"></div>
+                    </td>
+                    <td>
+                        <div class="cell-content">
+                            <a href="#vision-mission">Vision & Mission</a>
+                        </div>
+                        <div class="rounded-corner"></div>
+                    </td>
+                    <td>
+                        <div class="cell-content">
+                            <a href="#message">Message Us</a>
+                        </div>
+                        <div class="rounded-corner"></div>
+                    </td>
+                </tr>
+            </table>
+
+        </nav>
+    </header>
+
+    <section id="home">
+        <div class="banner">
+            <h1 id="welcome">Hi <span id="welcome-name">nama</span>, Welcome to RevoU Website</h1>
+            <p>Largest Live Online Learning Community</p>
+        </div>
+    </section>
+
+    <section id="our-profile">
+        <div class="profile">
+            <div class="profile-content">
+                <h1>About Our School</h1>
+                <p>When thinking about our distinctive Culture and how we operate as an Organization, we asked ourselves
+                    two fundamental questions:</p>
+                <p>1. What is uniquely particular about RevoU?</p>
+                <p>2. What is it that our employees experience here, that they won’t experience elsewhere?</p>
+                <p>In answering such questions, we first came up with a list of industry standard values. Values that,
+                    despite being an integral part of our culture, we share with many other employers in the job market.
+                    Especially the ones we compete with to attract the very best talent, that is other tech start ups.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section id="vision-mission">
+        <div class="visi-misi">
+            <div class="visi-misi-content">
+                <h1>Vision</h1>
+                <p>Kindess, Candor, Highest Standards, Passion</p>
+
+                <h1>Mision</h1>
+                <p>For as much as we shouldn’t take these for granted, we believe that these are not what make us truly
+                    unique. Not what we fully aspire to. Not the ones to keep ourselves accountable in our day-to-day
+                    life at RevoU to pursue our vision to make RevoU the most inspiring and career defining place to
+                    work in Southeast Asia.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="message">
+        <div class="message-us">
+            <div class="message-us-content">
+                <h1>Message Us</h1>
+                <form action="" method="post">
+
+                    <label for="name">Nama :</label>
+                    <input id="name" type="text">
+
+                    <label for="tanggalLahir">Tanggal Lahir :</label>
+                    <input type="datetime-local" id="tanggalLahir">
+
+                    <label for="jenisKelamin">Jenis Kelamin :</label>
+                    <select id="jenisKelamin" name="jenisKelamin">
+                        <option value="laki-laki">Laki-Laki</option>
+                        <option value="perempuan">Perempuan</option>
+                    </select>
+
+                    <label for="pesan">Pesan</label>
+                    <textarea id="pesan" cols="40" rows="5" placeholder="Ketik Disini"></textarea>
+
+                    <input type="submit" value="SUBMIT">
+                </form>
+
+                <div class="submission-result">
+                    <h2>Submission Result</h2>
+                    <p>Nama: <span id="result-name"></span></p>
+                    <p>Tanggal Lahir: <span id="result-birthdate"></span></p>
+                    <p>Jenis Kelamin: <span id="result-gender"></span></p>
+                    <p>Pesan: <span id="result-message"></span></p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <p>Created by Ernu Yoga</p>
+    </footer>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
